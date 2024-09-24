@@ -1,12 +1,10 @@
-import { useState } from "react";
 
-import BookCatalog from "./BookCatalog";
-
+import { useState } from 'react'
 
 
 const App = () => {
   const [title,setTitle] = useState('Book Catalog')
-    return <BookCatalog bookCatalog={title} />;
+  return (<div> App Component</div>)
 };
 
 export default App;

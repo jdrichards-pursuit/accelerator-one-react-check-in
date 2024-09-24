@@ -1,31 +1,43 @@
-# Basic React Starter
+# Book Catalog
 
-You can use this starter to create any ReactJS app you would like.
-Unlike when you use `npm create vite@latest your-app-name -- --template react`,
+This is a simple book catalog application built with React. It allows you to add, remove, and view books in a catalog.
 
-This repo has removed all of the unwanted starter code that is normally included when using `npm` to create an application.
+## Features
 
-## Getting started
+- Display the total number of books
+- Display the list of books
+- Add a new book to the list
+- Display a heading with the title "Book Catalog"
 
-- `clone` this application
-- change the name of this directory to a name that refers to your current project. Don't just leave it as `react-basic-starter`
-  _Hint:_ In the terminal, type `mv react-basic-starter new-name-of-your-app`
-- `cd` into the app
-- in the terminal run `git remote remove origin` in order to remove any connection to this Github folder.
 
-- run `npm install`
-- to start the project, run `npm run dev`
-- no navigate to `localhost:3000` and you will see the app
-- Now you are ready to code
+## Getting Started
 
-If you would like to connect this afterwards to your personal Github then:
+1. Clone the repository
+2. Run `npm install` to install the dependencies
+3. Run `npm run dev` to start the development server
+4. Open `http://localhost:3000` in your browser to view the app
 
-- go to your Github account in the browser
-- create a new repo and give it a name
-- make sure the repo is public and click `Create Repository`
-- copy the instructions under the title `…or push an existing repository from the command line`
-- paste the commands in your terminal
 
-You have now connected your project to the repo.
+## Instructions
 
-**You have the ability to clone this repo over and over to create your own projects. Just remember to change the name of the folder so that you do not have duplicates**
+1. In the existing BookCatalog.jsx file, import the useState and useEffect hooks from React.
+
+2. The component should accept a prop named bookTitle
+  
+3. Set up two state variables using the useState hook:
+    - books to store the array of books
+    - newBook to store the details of a book being added
+
+4. Implement a useEffect hook to load the initial books into the books state when the component mounts. This should use the existing array in the file.
+
+5. Create a function to handle input changes that updates the new book state as the user types in the form fields.
+
+6. Create a function to handle adding a new book to the books state when the form is submitted.
+
+7. In the component's return statement, update the JSX structure to:
+    - Use the bookTitle prop in an h1 heading
+    - Display the total number of books
+    - Create a form for adding new books with inputs for title, author, and year
+    - Add a submit button for the form
+    - Create a list to display all the books
+

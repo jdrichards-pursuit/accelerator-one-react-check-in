@@ -6,10 +6,10 @@ This is a basic Book Catalog application built with React to check your understa
 
 ## Features
 
-- Display the total number of books
+- Display a heading with the title "Book Catalog" from props
 - Display the list of books
-- Add a new book to the list
-- Display a heading with the title "Book Catalog"
+- Form to add a new book to the list
+
 
 
 ## Getting Started
@@ -26,25 +26,26 @@ This is a basic Book Catalog application built with React to check your understa
 
 1. Import the useState and useEffect hooks from React.
 
-1. The component should accept a prop named bookTitle
+1. The component should accept a prop named `bookTitle`
 
 1. Set up two state variables using the useState hook:
     - `books` to store the array of books initialized with an empty array
-    - `newBook` to store the details of a book being added initialized as an object with empty strings for title, author, and year.
+    - `newBook` to store the details of a book being added initialized as an object with empty strings for `title`, `author`, and `year` inside the object.
 
-1. Implement a useEffect hook to load the initial books into the books state when the component mounts. This should use the existing array, `initialBooks`, already created to load the state. It should only run once.
+1. Implement a `useEffect` hook to load the `initialBooks` array into the `books` state when the component mounts. The `useEffect` should only run once.
 
 1. In the return statement, update the JSX structure to:
-    - Use the bookTitle prop in an h1 heading that must be received as a prop from the App component
-    - Display the total number of books in a string with the format e.g."Total books: 11"
-    - Create a form for adding new books with inputs for title, author, and year
-    - Add a submit button for the form
-    - Create a unordered list to display all the books
+    - Use the `bookTitle` prop in an `h1` heading that must be received as a prop from the App component
+    - Create:
+        - a form for adding new books 
+        - inputs for `title`, `author`, and `year`
+        - a submit button for the form
+        - an unordered list to display all the books
     - Each book in the list should have its title, author, and year displayed in an li element
 
 
-1. Add to the BookCatalog component functions to handle:
-    -  input changes that updates the newBook state as the user types in the form fields. Call this function handleChange.
-    - form submission that adds a new book to the books state. Call this function handleSubmit.
+1. Create these functions inside the BookCatalog component:
+    - `handleChange` that updates the `newBook` state as the user types in the form fields.
+    - `handleSubmit` that adds a new book to the `books` state.
 
 

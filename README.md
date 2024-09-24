@@ -38,8 +38,8 @@ This is a basic Book Catalog application built with React to check your understa
     - Use the `bookTitle` prop in an `h1` heading that must be received as a prop from the App component
     - Create:
         - a form for adding new books
-        - inputs for `title`, `author`, and `year`
-        - a label for each input
+        - input attributes for `title`, `author`, and `year`
+        - a label attribute for each input
         - a submit button for the form
         - an unordered list to display all the books
     - Each book in the list should have its title, author, and year displayed in an li element

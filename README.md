@@ -2,7 +2,7 @@
 
 <img src='./assets/react.webp' width="300px">
 
-This is a simple book catalog application built with React. It allows you to add, remove, and view books in a catalog.
+This is a basic book catalog application built with React. It allows you to add and view books from a catalog array.
 
 ## Features
 

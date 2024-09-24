@@ -32,7 +32,7 @@ This is a basic Book Catalog application built with React to check your understa
     - `books` to store the array of books initialized with an empty array
     - `newBook` to store the details of a book being added initialized as an object with empty strings for `title`, `author`, and `year` inside the object.
 
-1. Implement a `useEffect` hook to load the `initialBooks` array into the `books` state when the component mounts. The `useEffect` should only run once.
+1. Implement a `useEffect` hook to set the `books` state to the `initialBooks` array. The `useEffect` should only run once.
 
 1. In the return statement, update the JSX structure to:
     - Use the `bookTitle` prop in an `h1` heading that must be received as a prop from the App component

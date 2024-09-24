@@ -28,7 +28,7 @@ This is a basic Book Catalog application built with React to check your understa
 
 1. The component should accept a prop named `bookTitle`
 
-1. Set up two state variables using the useState hook:
+1. Set up two pieces of state using the useState hook:
     - `books` to store the array of books initialized with an empty array
     - `newBook` to store the details of a book being added initialized as an object with empty strings for `title`, `author`, and `year` inside the object.
 

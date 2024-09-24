@@ -10,9 +10,9 @@ You will be given a basic React application with two components: `App` and `Book
 
 ## Features
 
-- Display a heading with the title "Book Catalog" from props
-- Display the list of books
-- Form to add a new book to the list
+- A heading with the title "Book Catalog" from props
+- A display of the list of books
+- A form with a submit button to add a new book to the list
 
 
 
@@ -40,13 +40,12 @@ You will be given a basic React application with two components: `App` and `Book
 
 1. In the return statement, update the JSX structure to:
     - Use the `bookTitle` prop in an `h1` heading that must be received as a prop from the App component
-    - Create:
-        - a form for adding new books
+    - Show a form for adding new books which will include:
         - input attributes for `title`, `author`, and `year`
         - a label attribute for each input
         - a submit button for the form
-        - an unordered list to display all the books
-    - Each book in the list should have its title, author, and year displayed in an li element
+    - Add an unordered list to display all the books
+    - Display each book in the list with its `title`, `author`, and `year`
 
 
 1. Create these functions inside the BookCatalog component:

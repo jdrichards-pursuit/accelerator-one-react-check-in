@@ -44,7 +44,7 @@ You will be given a basic React application with two components: `App` and `Book
         - input attributes for `title`, `author`, and `year`
         - a label attribute for each input
         - a submit button for the form
-    - Add an unordered list to display all the books
+    - Use an unordered list to display all the books
     - Display each book in the list with its `title`, `author`, and `year`
 
 
